@@ -1,0 +1,21 @@
+{
+  "name": "onepiece-dark-theme",
+  "displayName": "OnePiece-Dark-Theme",
+  "description": "Dark Theme Based on One Piece Manga",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "onePiece-dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/onepiece-dark-theme.json"
+      }
+    ]
+  }
+}
